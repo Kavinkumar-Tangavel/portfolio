@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kavinkumar Thangavelraja - Web Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Lora', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #eef2f7;
+        }
+        header {
+            background-color: #1abc9c;
+            color: white;
+            padding: 2rem 1rem;
+            text-align: center;
+            position: relative;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            font-size: 1rem;
+            margin-top: 0.5rem;
+        }
+        .social-links {
+            position: absolute;
+            top: 15rem;
+            right: 1rem;
+        }
+        .social-links a {
+            margin: 0 5px;
+            text-decoration: none;
+        }
+        .social-links img {
+            width: 36px;
+            height: 36px;
+        }
+        section {
+            padding: 1.5rem 1rem;
+            margin: 1.5rem auto;
+            max-width: 1000px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 0.8rem;
+            color: #34495e;
+        }
+        .image-container {
+            text-align: center;
+            margin: 1.5rem 0;
+        }
+        .image-container img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+        }
+        .bio {
+            font-size: 1rem;
+            color: #34495e;
+            margin-left: 20px;
+            display: inline-block;
+            vertical-align: top;
+            width: 60%;
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.8rem;
+            margin-top: 1rem;
+        }
+        .skill {
+            background-color: #16a085;
+            color: white;
+            padding: 0.8rem;
+            border-radius: 6px;
+            font-size: 0.9rem;
+            flex: 1 1 150px;
+            text-align: center;
+        }
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        .project {
+            padding: 1rem;
+            background-color: #d9edf7;
+            border-radius: 6px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .project h3 {
+            font-size: 1.4rem;
+            margin-bottom: 0.8rem;
+            color: #2c3e50;
+        }
+        .project p {
+            font-size: 0.9rem;
+            margin-bottom: 0.8rem;
+        }
+        footer {
+            text-align: center;
+            padding: 1.5rem 1rem;
+            background-color: #16a085;
+            color: white;
+            font-size: 0.9rem;
+        }
+        footer a {
+            color: #ecf0f1;
+            text-decoration: none;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 0.8rem;
+            margin-bottom: 0.8rem;
+            border-radius: 6px;
+            border: 1px solid #ddd;
+        }
+        .contact-form button {
+            background-color: #16a085;
+            color: white;
+            padding: 0.8rem 1.5rem;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #138d75;
+        }
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 0.5rem;
+        }
+        .contact-info p {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .contact-info img {
+            width: 16px;
+            height: 16px;
+        }
+        .copyright {
+            margin-top: 1.5rem;
+            font-size: 0.8rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Kavinkumar Thangavelraja</h1>
+        <p>Web Developer | Passionate about building beautiful and functional websites</p>
+        <div class="social-links">
+            <a href="https://github.com/Kavinkumar-Tangavel" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub">
+            </a>
+            <a href="https://www.instagram.com/mr_cool_kavi_?igsh=MTJncGYwc293NzE5Mg==" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="GitHub">
+            </a>
+            <a href="https://www.linkedin.com/in/kavin-kumar-96ba7a25a" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn">
+            </a>
+        </div>
+    </header>
+    <section>
+        <div class="image-container">
+            <img src="kavin.jpg" alt="Kavinkumar Thangavelraja" />
+        </div>
+        <div class="bio">
+            <p>Hi! I'm Kavinkumar, a web developer with a passion for creating seamless user experiences. I specialize in building responsive, user-friendly websites and applications. My goal is to combine technical expertise with creative problem-solving to deliver high-quality products.</p>
+        </div>
+    </section>
+    <section>
+        <h2>Skills</h2>
+        <div class="skills">
+            <div class="skill">HTML5</div>
+            <div class="skill">CSS3</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">React</div>
+            <div class="skill">Node.js</div>
+            <div class="skill">MongoDB</div>
+            <div class="skill">MySQL</div>
+        </div>
+    </section>
+    <section>
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="project">
+                <h3>Task Manager</h3>
+                <p>A web application to manage tasks and to-do lists. Users can create, edit, and delete tasks, set deadlines, and prioritize them.</p>
+                <p><strong>Technologies used:</strong> HTML, CSS, JavaScript</p>
+            </div>
+            <div class="project">
+                <h3>Billing System for Grocery Shop</h3>
+                <p>A billing system for a grocery store where the cashier can add items to the cart, calculate total cost, and generate invoices.</p>
+                <p><strong>Technologies used:</strong> HTML, CSS, JavaScript, PHP, MySQL</p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2>Contact Me</h2>
+        <div class="contact-form">
+            <form action="mailto:kavinkumar.t562004@gmail.com" method="post" enctype="text/plain">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <style>
+                .contact-form input, .contact-form textarea {
+                    width: 100%;
+                    max-width: 600px;
+                    padding: 1rem;
+                    margin-bottom: 0.8rem;
+                    border-radius: 6px;
+                    border: 1px solid #ddd;
+                    font-size: 1rem;
+                }
+                .contact-form textarea {
+                    resize: vertical;
+                }
+                .contact-form button {
+                    background-color: #16a085;
+                    color: white;
+                    padding: 0.8rem 1.5rem;
+                    border: none;
+                    border-radius: 6px;
+                    cursor: pointer;
+                    font-size: 1rem;
+                }
+                .contact-form button:hover {
+                    background-color: #138d75;
+                }
+            </style>
+            
+        </div>
+    </section>
+    <section>
+        <h2>Download My Resume</h2>
+        <a href="resume.pdf" download>
+            <button>Download Resume (PDF)</button>
+        </a>
+    </section>
+        <section>
+        <h2>Contact Me</h2>
+        <div class="contact-form">
+            <form action="mailto:kavinkumar.t562004@gmail.com" method="post" enctype="text/plain">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <section>
+        <h2>Contact Me</h2>
+        <div class="contact-info">
+            <p><img src="https://via.placeholder.com/16" alt="Phone Icon"> <strong>Phone:</strong> <a href="tel:+919003775452">9003775452</a></p>
+            <p><img src="https://via.placeholder.com/16" alt="Email Icon"> <strong>Email:</strong> <a href="mailto:kavinkumar.t562004@gmail.com">kavinkumar.t562004@gmail.com</a></p>
+            <p><img src="https://via.placeholder.com/16" alt="Address Icon"> <strong>Address:</strong> D.no.117, N.P.Nagar, 1st Street, Serangadu, Tiruppur</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Kavinkumar Thangavelraja. All rights reserved.</p>
+    </footer>
+</body>
+</html>
